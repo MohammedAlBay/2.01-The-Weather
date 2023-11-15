@@ -55,3 +55,18 @@ body{
   font-size: 16px;
   font-weight: 700;
 }
+
+.current-info .others{
+  display: flex;
+  flex-direction: column;
+  background: rgba(24, 24, 27, 0.6);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+.current-info .others .weather-item{
+  display: flex;
+  justify-content: space-between;
+}
