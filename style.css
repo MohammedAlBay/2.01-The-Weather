@@ -77,11 +77,30 @@ body{
   bottom: 0;
   width: 100%;
   background: rgba(24, 24, 27, 0.8);
-  padding: 20px;
+  color: #fff;
+  padding: 25px;
   justify-content: center;
   align-items: center;
 }
 
 .future-forecast .weather-forecast{
   display: flex;
+}
+
+.future-forecast .today{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.future-forecast .today .day{
+  background: #3c3c44;
+  border-radius: 50px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.future-forecast .today .temp{
+  font-size: 20px;
+  padding-top: 15px;
 }
