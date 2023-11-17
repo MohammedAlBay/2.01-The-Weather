@@ -56,6 +56,22 @@ body{
   font-weight: 700;
 }
 
+#cityInput{
+  font-size: 20px;
+  background: #3c3c44;
+  color: #fff;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+#searchButton{
+  font-size: 20px;
+  background-color: #3c3c44;
+  color: #fff;
+}
+
 .current-info .others{
   display: flex;
   flex-direction: column;
@@ -128,6 +144,9 @@ body{
 }
 
 @media only screen and (max-width: 488px) {
+  .container{
+    padding: 20px 10px;
+  }
   .future-forecast{
     justify-content: start;
     overflow-x: scroll;
@@ -149,11 +168,13 @@ body{
   .place-container .time-zone{
     font-size: 20px;
     text-align: center;
+    font-weight: 500;
   }
 
   .place-container .country{
     font-size: 16px;
     text-align: center;
+    color: #fff;
   }
 
   .future-forecast .today .temp{
@@ -173,6 +194,14 @@ body{
   .current-info .others .weather-item{
     font-size: 14px;
   }
+
+  #cityInput{
+    font-size: 16px;
+  }
+  
+  #searchButton{
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 489px) {
@@ -188,6 +217,20 @@ body{
 
   .place-container{
     text-align: center;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .place-container .time-zone{
+    font-weight: 500;
+  }
+  
+  #cityInput{
+    font-size: 16px;
+  }
+  
+  #searchButton{
+    font-size: 16px;
   }
 }
 
@@ -203,6 +246,7 @@ body{
   .place-container{
     padding-top: 20px;
     text-align: end;
+    color: #fff;
   }
 }
 
