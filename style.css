@@ -133,18 +133,6 @@ body{
     overflow-x: scroll;
   }
 
-  .current-info{
-    text-align: center;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .future-forecast{
-    justify-content: start;
-    overflow-x: scroll;
-  }
-
   .date-container .time{
     font-size: 50px;
     text-align: center;
@@ -165,7 +153,7 @@ body{
 
   .place-container .country{
     font-size: 16px;
-    text-align: end;
+    text-align: center;
   }
 
   .future-forecast .today .temp{
@@ -175,6 +163,7 @@ body{
 
   .current-info{
     text-align: center;
+    justify-content: center;
   }
 
   .current-info .others{
@@ -186,16 +175,40 @@ body{
   }
 }
 
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 489px) {
   .future-forecast{
     justify-content: start;
     overflow-x: scroll;
   }
+
+  .current-info{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .place-container{
+    text-align: center;
+  }
 }
 
-@media only screen and (min-width: 1180px){
+@media only screen and (min-width: 669px){
+  .future-forecast{
+    justify-content: start;
+    overflow-x: scroll;
+  }
+  .current-info{
+    text-align: center;
+    justify-content: space-between;
+  }
+  .place-container{
+    padding-top: 20px;
+    text-align: end;
+  }
+}
+
+@media only screen and (min-width: 1120px){
   .future-forecast{
     justify-content: center;
-    overflow-x: scroll;
+    overflow: hidden;
   }
 }
