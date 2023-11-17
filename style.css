@@ -126,3 +126,76 @@ body{
 .weather-forecast .weather-forecast-item .temp{
   font-weight: 100;
 }
+
+@media only screen and (max-width: 488px) {
+  .future-forecast{
+    justify-content: start;
+    overflow-x: scroll;
+  }
+
+  .current-info{
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .future-forecast{
+    justify-content: start;
+    overflow-x: scroll;
+  }
+
+  .date-container .time{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .date-container #am-pm{
+    font-size: 20px;
+  }
+  .date-container .date{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .place-container .time-zone{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .place-container .country{
+    font-size: 16px;
+    text-align: end;
+  }
+
+  .future-forecast .today .temp{
+    font-size: 23px;
+    padding-top: 15px;
+  }
+
+  .current-info{
+    text-align: center;
+  }
+
+  .current-info .others{
+    padding: 12px;
+  }
+
+  .current-info .others .weather-item{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .future-forecast{
+    justify-content: start;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (min-width: 1180px){
+  .future-forecast{
+    justify-content: center;
+    overflow-x: scroll;
+  }
+}
